@@ -8,7 +8,7 @@
 
 ## ライセンス
 
-- オープンデータ [石川県観光戦略推進部観光企画課]([https://www.fuku-e.com/](https://sites.google.com/view/milli-ishikawa-pref/milli%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6))
+- オープンデータ [石川県観光戦略推進部観光企画課](https://sites.google.com/view/milli-ishikawa-pref/milli%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 ## 関連
 
