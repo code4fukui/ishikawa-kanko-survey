@@ -50,13 +50,13 @@ const map = {
 
 const items = [];
 for (const l of list) {
-  const [name] = l;
+  const [name, gid, nameja] = l;
   const json = await CSV.fetchJSON(name + ".csv");
   json.forEach(i => {
     i.タイムスタンプ = new DateTime(i.タイムスタンプ).toString();
     if (i.個人情報保護の方針について == "同意する") {
       delete i.個人情報保護の方針について;
-      const o = { ID: "", area: name };
+      const o = { ID: "", 回答エリア: nameja };
       for (const name in i) {
         const name2 = map[name];
         if (name2) {
