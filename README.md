@@ -4,7 +4,7 @@
 
 ## オープンデータ
 
-- 石川県観光アンケート [全データ](all.csv) ([https://code4fukui.github.io/ishikawa-kanko-survey/all.csv](https://code4fukui.github.io/ishikawa-kanko-survey/all.csv))
+- 石川県観光アンケート [全データ](all.csv) ([https://code4fukui.github.io/ishikawa-kanko-survey/all.csv](https://code4fukui.github.io/ishikawa-kanko-survey/all.csv)) / [金沢エリア](kanazawa.csv) / [加賀エリア](kaga.csv) / [能登エリア](noto.csv)
 
 ## ライセンス
 
