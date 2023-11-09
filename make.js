@@ -46,7 +46,6 @@ const map = {
   "お住いの市区町村をお答えください\n例：新宿区": "市区町村",
   "世帯年収をお答えください": "世帯年収",
   "アンケートに回答しようと思った動機をお答えください": "回答動機",
-  "file": "file",
 };
 
 const items = [];
@@ -54,11 +53,10 @@ for (const l of list) {
   const [name] = l;
   const json = await CSV.fetchJSON(name + ".csv");
   json.forEach(i => {
-    i.file = name;
     i.タイムスタンプ = new DateTime(i.タイムスタンプ).toString();
     if (i.個人情報保護の方針について == "同意する") {
       delete i.個人情報保護の方針について;
-      const o = {};
+      const o = { ID: "", area: name };
       for (const name in i) {
         const name2 = map[name];
         if (name2) {
@@ -78,6 +76,7 @@ for (const l of list) {
   });
 }
 items.sort((a, b) => a.回答日時.localeCompare(b.回答日時));
+items.forEach((i, idx) => i.ID = idx + 1);
 await Deno.writeTextFile("all.csv", CSV.stringify(items));
 
 //console.log(items[0]);
