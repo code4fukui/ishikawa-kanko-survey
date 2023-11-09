@@ -53,7 +53,7 @@ for (const l of list) {
   const [name, gid, nameja] = l;
   const json = await CSV.fetchJSON(name + ".csv");
   json.forEach(i => {
-    i.タイムスタンプ = new DateTime(i.タイムスタンプ).toString();
+    i.タイムスタンプ = new DateTime(i.タイムスタンプ + "+09:00").toString();
     if (i.個人情報保護の方針について == "同意する") {
       delete i.個人情報保護の方針について;
       const o = { ID: "", 回答エリア: nameja };
