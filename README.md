@@ -1,15 +1,17 @@
-# 石川県観光データ分析プラットフォーム「Milli」 on GitHub
+# Ishikawa Tourism Data Analysis Platform "Milli"
 
-- https://github.com/code4fukui/ishikawa-kanko-survey/
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## オープンデータ
+This is an open-source project for analyzing tourism data in Ishikawa Prefecture, Japan.
 
-- 石川県観光アンケート [全データ](all.csv) ([https://code4fukui.github.io/ishikawa-kanko-survey/all.csv](https://code4fukui.github.io/ishikawa-kanko-survey/all.csv)) / [金沢エリア](kanazawa.csv) / [加賀エリア](kaga.csv) / [能登エリア](noto.csv)
+## Open Data
 
-## ライセンス
+- Ishikawa Prefecture Tourism Survey [All Data](all.csv) ([https://code4fukui.github.io/ishikawa-kanko-survey/all.csv](https://code4fukui.github.io/ishikawa-kanko-survey/all.csv)) / [Kanazawa Area](kanazawa.csv) / [Kaga Area](kaga.csv) / [Noto Area](noto.csv)
 
-- オープンデータ [石川県観光戦略推進部観光企画課](https://sites.google.com/view/milli-ishikawa-pref/milli%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+## License
 
-## 関連
+MIT License — see [LICENSE](LICENSE).
 
-- [福井県観光データ分析システム on GitHub](https://github.com/code4fukui/fukui-kanko-survey/)
+## Related
+
+- [Fukui Prefecture Tourism Data Analysis System on GitHub](https://github.com/code4fukui/fukui-kanko-survey/)
